@@ -94,7 +94,7 @@ function App() {
 
       return () => clearInterval(interval);
     }
-  }, [appState, mediaRecorder]);
+  }, [appState, mediaRecorder, startRecording]);
 
   const stopRecording = () => {
     if (mediaRecorder) mediaRecorder.stop();
