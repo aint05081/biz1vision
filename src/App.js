@@ -16,9 +16,9 @@ const commonButtonStyle = {
 };
 
 const frameOptions = [
-  { name: "아경체전", file: "frame1.png" },
-  { name: "경영대학", file: "frame2.png" },
-  { name: "감성 알밤", file: "frame3.png" },
+  { name: "1번 프레임", file: "frame1.png" },
+  { name: "2번 프레임", file: "frame2.png" },
+  { name: "3번 프레임", file: "frame3.png" },
 ];
 
 function App() {
